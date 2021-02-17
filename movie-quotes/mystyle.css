@@ -1,0 +1,43 @@
+body
+     {background-color: rgb(65, 12, 62);} 
+
+
+h1
+    {color:rgb(73, 128, 160);
+     text-align: center; 
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50pt;
+    font-kerning: auto ;font-stretch: ultra-expanded; }
+
+p
+    {text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size :13pt;
+    font-kerning:-3pt;}
+    
+
+h3
+    {text-align: center;font-size:xx-large;}
+
+
+    .peter {font-weight: bolder;}
+    .dana{font-weight: bolder;}
+    .ray{font-weight:bolder}
+    .mayor{font-weight: bolder;}
+    .egon{font-weight: bolder;}
+    .winston{font-weight: bolder;}
+    .note{font-style: italic; font-weight: bold;font-stretch:ultra-expanded; }
+
+article 
+    {display: block; 
+    ; background-color: rgba(244, 165, 96, 0.534)
+    ;}
+
+element
+    {display:block;
+    background-color: rgba(177, 181, 243, 0.445);}
+
+nav
+        {display:block; 
+            background-color:rgba(211, 167, 86, 0.664);}
+
