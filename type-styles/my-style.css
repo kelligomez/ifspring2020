@@ -1,0 +1,53 @@
+h1
+    {font-size: 65px;
+    margin-bottom: -10px;
+color:midnightblue; font-family: 'Raleway', sans-serif; 
+text-indent: -25px;}
+
+h2
+{color: midnightblue;
+font-weight: lighter; text-indent: -20px;
+font-size: 20px}
+
+h3
+{color:paleturquoise; font-weight: lighter; 
+font-size:35px; text-indent: -28px; 
+font-stretch: semi-expanded; margin-bottom: -15px;}
+
+h4
+{font-weight:lighter; font-family:'Raletway', sans-serif;
+font-size: 15px;text-indent: -20px; }
+
+
+html
+{font-family: 'Raleway', sans-serif;}
+
+p
+{font-size: 22px; color:rgb(139, 30, 55); font-family: 'Raletway', sans-serif; text-indent: -20px; }
+ 
+
+#fw {font-weight: 800;
+}
+
+#fs {font-style: italic;
+}
+
+#ls {
+    letter-spacing: 0.3em;
+}
+#dls {letter-spacing: 0.6em}
+
+#tt {
+    text-transform: uppercase;
+}
+#dtt {text-transform: lowercase;}
+#ttt {text-transform: capitalize;}
+#td {
+    text-decoration: overline;
+}
+#dtd {text-decoration: line-through}
+#ttd {text-decoration: underline;}
+
+body
+{background-color: rgba(158, 158, 55, 0.699);color: midnightblue; margin: 5%;
+}
