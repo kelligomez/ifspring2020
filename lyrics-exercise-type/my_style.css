@@ -1,0 +1,52 @@
+html{
+ background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Checkerboard_pattern.svg/500px-Checkerboard_pattern.svg.png)  ;background-repeat:repeat-X; 
+ background-color: rgb(204, 239, 253);
+}
+
+header
+    {color:lightpink; 
+    font-size:69px; font-family:'Lobster'; background-color: crimson;
+
+    ; 
+
+
+   ;}
+
+h2
+{color:palevioletred;font-size: 37px; text-align: center; letter-spacing: 0.15em;}
+
+body{ font-family: 'Lobster'; ;
+    
+
+}
+
+
+h1
+    {text-align: center;
+        letter-spacing: 0.3em;
+    }
+
+
+p
+{font-family: Arial, Helvetica, sans-serif; color: rgb(243, 63, 132);text-align: center;
+font-weight: bold; font-size: 30px;line-height: 15px;;}
+
+
+h3
+{text-align: center;}
+
+.note
+{font-family: Arial, Helvetica, sans-serif; font-weight: bolder; font-size: medium;
+    text-align: center; color: teal; background-color: lawngreen;}
+
+
+#Chorus {
+    font-weight: 900;font-style: italic; color:rgb(198, 132, 214); font-family: "Lobster"; letter-spacing: 0.1em; font-size: 40px;}
+    
+#Clairo{
+    color:indianred
+}
+#Deaton {
+    color:lightsalmon
+}
+
