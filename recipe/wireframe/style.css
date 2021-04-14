@@ -1,0 +1,108 @@
+html{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    background-color:maroon;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h1{
+    font: 35px;
+    color:honeydew;
+    letter-spacing:0.1em;
+    font-weight: 400;
+    padding: 10px;
+    text-align: left;
+    font-style: italic ;
+}
+
+a{
+    color: paleturquoise;
+}
+
+p{
+    color: palegoldenrod;
+    font-size: 15px;
+    max-width: 700;
+    margin:auto;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+h2{
+    font-size: 50px;
+    color: orange;
+    font-weight: 900;
+    letter-spacing: .5rem;
+    text-align: center;
+   
+}
+
+img{
+display: block;
+width: 50%;
+height: 50%;
+margin: auto;
+padding: 20px;
+}
+
+
+
+.ul{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ingredients{
+    width: 30%;
+    flex-direction: column;
+    display:block;
+    float: left;
+
+}
+
+.ingredients li{
+    display: block;
+    width: 100%;
+
+ 
+}
+.prep{
+   width: 50%;
+   display: block;
+   float: right;
+  
+  
+}
+
+.prep li{
+    display: block;
+    width: 100%;
+  
+   
+}
+
+@media(max-width: 640px){
+    ul{
+        display: block;
+    }
+
+
+    .ingredients{
+        width: 100%;
+    }
+    .prep{
+        width: 100%;
+    }  
+    }
+
+footer{
+    padding: 600px
+}
+footer.p{
+    display: block;
+   
+
+}
