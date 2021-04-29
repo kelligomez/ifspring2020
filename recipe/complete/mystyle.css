@@ -1,0 +1,152 @@
+html{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    background-color:maroon;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h1{
+    font: 35px;
+    color:honeydew;
+    letter-spacing:0.1em;
+    font-weight: 400;
+    padding: 10px;
+    text-align: left;
+    font-style: italic ;
+}
+
+a{
+    color: paleturquoise;
+}
+
+p{
+    color: palegoldenrod;
+    font-size: 15px;
+    max-width: 700;
+    margin:auto;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+h2{
+    font-size: 50px;
+    color: orange;
+    font-weight: 900;
+    letter-spacing: .5rem;
+    text-align: center;
+   
+}
+
+img{
+display: block;
+width: 50%;
+height: 50%;
+margin: auto;
+padding: 20px;
+
+
+}
+
+
+
+ .board{
+     background-image: url(https://bhf-cdn.azureedge.net/bhf-blob-prod/0038552_chase-dark-brown-faux-wood-texture-wallpaper_600.jpeg);
+     width: 100%;
+     height: 75%;
+     display: block;
+ }   
+    
+
+
+img.two{
+    width:75%;
+    margin-top: 10px;
+}
+
+.box{
+   
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+      justify-items: center;
+      justify-content: space-evenly;
+      align-content: space-evenly;
+      margin-top:20px;
+}
+
+ul{
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 0;
+}
+
+p.ingredients{
+    text-transform: capitalize;
+}
+
+.ingredients{
+  
+    flex-direction: column;
+    display:block;
+    float: left;
+   
+  
+
+}
+
+.ingredients li{
+    display: block;
+ 
+ }
+
+.prep{
+   width: 60%;
+   display: block;
+
+  
+  
+  
+  
+}
+
+.prep li{
+    display: block;
+ min-width: 400px;
+
+
+   
+}
+
+@media(max-width: 640px){
+    ul{
+        display: block;
+    }
+
+
+    .ingredients{
+        width: 100%;
+    }
+    .prep{
+        width: 100%;
+    } 
+    .box{
+        width:100%;
+
+    }
+
+
+
+
+   
+   
+
+}
