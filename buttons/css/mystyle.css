@@ -1,0 +1,445 @@
+a#btn_coke img{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    transition: .2s;
+    margin-top: 70px;
+    width: 175px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: maroon solid 0.5px;
+    transition: .3s;
+}
+
+
+
+
+a#btn_coke img:hover{
+   transform:rotate(180deg);
+    position: relative;
+    transition: .6s;
+    background-color: maroon;
+
+}
+
+a#btn_oldnavy{
+    display: inline-block;
+    position:relative;
+    margin: auto;
+    height: 50px;
+    color:rgb(52, 95, 131);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    font-size: 30px;;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding: 10px 40px 10px 40px ;
+    margin-top: 100px;
+    transition: .2s;
+
+}
+
+a#btn_oldnavy:hover{
+transform: scale(1.5);
+background-color:indianred;
+transition: .2s;
+
+}
+
+a#btn_nbc img{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    transition: .2s;
+    margin-top: 70px;
+    width: 175px;
+    
+}
+
+
+a#btn_nbc img:hover{
+    transform: scale(.9);
+
+}
+
+a#btn_kittens{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 90px;
+    height: 50px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+    transform: .4s;
+    box-sizing: border-box;
+    border-radius: 70%;
+}
+
+a#btn_kittens span{
+    z-index: 10;
+    position: relative;
+    transition: .2;
+}
+a#btn_kittens:hover{
+   position: relative;
+    height: 60px;
+    width: 250px;
+    color: lemonchiffon;
+ 
+   
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3c5bd+0,ea2803+26,ea2803+26,e86c57+50,ff6600+75,c72200+100 */
+    background: #f3c5bd; /* Old browsers */
+    background: -moz-linear-gradient(left,  #f3c5bd 0%, #ea2803 26%, #ea2803 26%, #e86c57 50%, #ff6600 75%, #c72200 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #f3c5bd 0%,#ea2803 26%,#ea2803 26%,#e86c57 50%,#ff6600 75%,#c72200 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #f3c5bd 0%,#ea2803 26%,#ea2803 26%,#e86c57 50%,#ff6600 75%,#c72200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=1 ); /* IE6-9 */
+    transform: .4s;
+}
+a#btn_moo{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 80px;
+    height: 90px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight:300;
+    color: rgb(49, 143, 91);
+    box-sizing: border-box;
+    border:rgb(49, 143, 91) 1px solid;
+    padding: 25px;
+    border-radius: 75%;
+    transition: 0.4s;
+
+}
+
+a#btn_moo:hover {
+    color: seashell;
+    background-color: rgb(49, 143, 91);
+    transition: 0.4s;
+}
+
+
+a#btn_moo span {
+    position: relative;
+    z-index: 10;
+  
+}
+
+a#btn_flight{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 100px;
+    height: 50px;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(62, 160, 240);
+    font-weight: bold;
+    transition: .4s;
+    box-sizing: border-box; 
+    border-radius: 35%;
+   
+
+ 
+}
+
+a#btn_flight::before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+}
+
+
+a#btn_flight i:hover{
+    color:navy;
+    
+}
+
+a#btn_flight:hover{
+    color: navy;
+    background-color: lightskyblue;
+    text-align: center;
+    padding-top: 10px;
+ 
+}
+
+.fa-plan{
+    padding: 5px;
+}
+
+a#btn_mj{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 100px;
+    height: 50px;
+    font-family: 'Parisienne', cursive;
+    font-weight:900;
+    font-size: 35px;
+    font-style: italic;
+    color: darkolivegreen;
+}
+
+a#btn_mj:hover{
+    text-shadow: 4px 4px 3px rgb(137, 168, 137);
+}
+
+
+a#btn_motor{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 95px;
+    height: 50px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 25px;
+    color:black;
+    transition: .2s;
+}
+
+a#btn_motor:hover{
+   text-decoration: line-through;
+   transform: scale(1.8);
+}
+
+
+a#btn_lyft img{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    transition: .2s;
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+a#btn_lyft img:hover{
+    background-color: rgb(255, 212, 219);
+    transition: .4s;
+    border-radius: 50%;
+} 
+
+a#btn_harley img{
+    display: inline-block;
+    position: relative;
+     margin-top: 40px;
+    transition: .2s;
+    width: 75%;     
+}
+
+a#btn_harley img:hover{
+    transform: scale(.5);
+    transition: .3s;
+}
+
+a#btn_ideo img{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    width: 150px;
+    transition: .2s;
+    margin-top: 80px;
+}
+a#btn_ideo img:hover{
+    transform: rotate(360deg);
+    transition: .6s;
+}
+
+
+a#btn_fitbit img{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    transition: .2s;
+    margin-top: 60px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: black 1px solid;
+
+}
+
+a#btn_fitbit img:hover{
+    transform: scale(.75);
+    transition: .3s;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+
+a#btn_CN img{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    transition: .2s;
+    margin-top: 40px;
+    width: 175px;
+    transition: .2s;
+
+}
+
+a#btn_CN img:hover{
+    transform: rotate(45deg);
+    transition: .4s;
+}
+
+a#btn_sardella{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 100px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Londrina Outline', cursive;
+    text-transform: uppercase;
+    padding: 10px;
+    color: blue;
+    box-sizing: border-box;
+    border: blue;
+    transition: .4s;
+}
+
+a#btn_sardella:hover{
+    color: wheat;
+    background-color: blue;
+    border: 3px double wheat;
+    transition: .3s;
+}
+
+a#btn_tucker{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 100px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: orange;
+    transition: .2s;
+}
+
+a#btn_tucker:hover{
+    color: seagreen;
+    font-weight: bold;
+    transform: .4s;
+    transform: scale(.8);
+}
+
+a#btn_ibm{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 90px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+    color: black;
+    transition: .2s;
+    box-sizing: border-box;
+    padding: 10px 0px 30px 0px ;
+    border-radius: 50%;
+    width: 150px;
+    
+}
+
+a#btn_ibm:hover{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+background: -moz-linear-gradient(left,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+transition: .3s;
+
+}
+
+a#btn_bissingers{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 100px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Grenze Gotisch', cursive;
+    color: rgb(219, 167, 54);
+    transition: .2s;
+    box-sizing: border-box;
+    border-radius: 15%;
+    width: 200px;
+    
+}
+
+a#btn_bissingers:hover{
+    background-color:rgb(58, 38, 28);
+    transition: .1;
+    transform: scale(1.4);
+    font-style: italic;
+}
+
+a#btn_tesla{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    transition: .2s;
+    margin-top: 80px;
+  width: 100%;
+  transition: .2s;
+
+}
+
+a#btn_tesla:hover{
+    transition: .4s;
+    transform: scale(.6);
+
+}
+
+a#btn_nerf{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    transition: .2s;
+    margin-top: 80px;
+    transition: .3s;
+
+}
+
+a#btn_nerf:hover{
+    transition: .4s;
+    transform: scale(.75) rotate(10deg);
+
+}
+
+a#btn_hsn{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    transition: .2s;
+    margin-top: 80px;
+    transition: .2s;
+
+}
+
+a#btn_hsn:hover{
+    transition: .3s;
+    transform: rotate(90deg);
+}
